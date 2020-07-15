@@ -1,9 +1,11 @@
 /* body */
 
 body {
-    background-color: #eceef1;
-    float: center;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif
+    background-color: white;
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, "Arial", "sans-serif";
+    color: #4c4c4c;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .form-center {
@@ -12,27 +14,26 @@ body {
     align-items: center;
 }
 
-
-/* navbar*/
-
 nav {
+    position: relative;
     float: right;
-    margin-right: 20px;
+    font-size: 14px;
 }
 
 .align {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: flex;
+    display: inline-block;
     width: 100%;
+    margin-top: 13px;
+    margin-left: -100px;
+    margin-right: 109px;
 }
 
 .list {
     list-style-type: none;
     margin-right: 5px;
-    font-size: 12px;
     margin-top: 2px;
     text-align: right;
 }
@@ -41,21 +42,29 @@ nav {
     border: 1px solid #4c4c4c;
     border-radius: 4px;
     color: white;
-    background: linear-gradient(#0077C5, #0242f0);
+    background: linear-gradient(#0077c5, #0242f0);
     font-weight: normal;
     font-size: 15px;
     padding: 8px 15px 8px;
-    line-height: 1.5px;
-    margin: 0px;
+    line-height: 2px;
+    position: absolute;
+    top: 22px;
+    right: 18px;
+    height: 30px;
+    cursor: pointer;
 }
 
-.list-element {
-    margin-top: 25px;
-    margin-left: 5px;
+#nav-text {
+    line-height: 0;
+    margin-right: 5pxs;
+}
+
+.align-text {
+    margin-top: 5px;
 }
 
 
-/* form*/
+/* form */
 
 .container {
     text-align: center;
@@ -63,12 +72,21 @@ nav {
 }
 
 #logo {
-    width: 118px;
-    height: 50px;
+    width: 160px;
+    height: 80px;
 }
 
 .container-down {
     text-align: center;
+}
+
+.icon-text {
+    font-size: 20px;
+    text-decoration: none;
+    color: #4c4c4c;
+    text-decoration: bold;
+    margin-right: 10px;
+    margin-top: 3px;
 }
 
 .f {
@@ -80,81 +98,86 @@ nav {
 }
 
 .create {
-    color: #4C4C4C;
+    color: #4c4c4c;
 }
 
 .icon {
-    width: 75px;
-    height: 20px;
-    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
 }
 
 .list-center {
     list-style-type: none;
     margin: 0;
-    padding: 2px;
+    padding: 3px;
     overflow: hidden;
     display: inline-flex;
+    text-align: center;
 }
 
 .form-top {
     background-color: white;
     padding: 5px;
-    margin-right: 475px;
-    margin-left: 500px;
+    margin-right: 480px;
+    margin-left: 480px;
     border: 1px solid #c6c7cc;
 }
 
 .form-bottom {
-    background-color: #ECEEF1;
+    background-color: #eceef1;
     padding: 5px;
-    margin-right: 475px;
-    margin-left: 500px;
+    margin-right: 480px;
+    margin-left: 480px;
     border: 1px solid #c6c7cc;
     font-size: 10px;
 }
 
 #form-text {
     font-size: 10px;
-    color: #4C4C4C;
+    color: #4c4c4c;
 }
 
 .links {
     text-decoration: none;
-    color: #0077C5;
+    color: #0077c5;
 }
 
 .form {
-    margin-top: 10px;
+    margin-top: 15px;
+    padding-bottom: 5px;
 }
 
 .text {
-    color: #4C4C4C;
+    color: #4c4c4c;
+    padding: 6px;
 }
 
 .inside {
     text-align: left;
-    margin-left: 15px;
+    margin-left: 0;
 }
 
 .input {
     width: 250px;
     height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    margin-top: 5px;
 }
 
 #submit {
-    background: linear-gradient(#0077C5, #0242f0);
+    background: linear-gradient(#0077c5, #0242f0);
     width: 250px;
     height: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 8px;
     color: white;
+    cursor: pointer;
 }
 
 .down {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -178,16 +201,17 @@ nav {
 }
 
 .privacy-bttn {
-    font-size: 12px;
-    background-color: #6B6C72;
+    position: fixed;
+    bottom: 0;
+    right: 70px;
+    font-size: 14px;
+    background-color: #6b6c72;
+    color: whitesmoke;
     border-radius: 3px;
-    margin: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-    padding-bottom: 0px;
+    padding: 0;
     cursor: pointer;
-    width: 8.4%;
-    margin-left: -5px;
-    float: right;
-    height: 50px;
+    width: 140px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
 }
