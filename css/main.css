@@ -423,26 +423,31 @@ aside li:hover {
 }
 
 .side-img {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   margin-right: 10px;
 }
 
 .side-container {
   display: flex;
   margin: 0;
-  font-size: 13px;
+  font-size: 10px;
   margin-bottom: 10px;
 }
 
 .a12 {
   display: flex;
-  margin: 0;
   padding-right: 100px;
   padding-left: 500px;
   border-top: 1px solid black;
   font-size: 14px;
   justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  z-index: 99;
+  right: 0;
+  left: 0;
 }
 
 .in-a12 {
@@ -459,13 +464,15 @@ aside li:hover {
 }
 
 .inf-img {
-  width: 100px;
-  height: auto;
-  padding-left: 50px;
+  width: 150px;
+  height: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .inf-text {
-  font-size: 10px;
+  font-size: 10px !important;
+  line-height: 8px;
   text-justify: inter-word;
   text-align: left;
 }
@@ -489,5 +496,3 @@ aside li:hover {
   font-size: small;
   padding-top: 0;
 }
-
-
