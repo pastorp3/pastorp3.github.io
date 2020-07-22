@@ -1,8 +1,10 @@
+
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# New York Times Article Page
+# Apple-website-webpage-Clone
 
-> This project is a responsive New York Times Artice page.
+> This project is a responsive Apple Home page.
 
 ![screenshot](./images/screenshot.png)
 
@@ -37,7 +39,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/pastorp3/Positioning-and-Floating-Elements/issues).
+Feel free to check the [issues page](https://github.com/bmuhamood/Apple-website-webpage-Clone/issues).
 
 ## Show your support
 
