@@ -1,49 +1,48 @@
-
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+# Design Tear Down
 
-# Apple-website-webpage-Clone
-
-> This project is a responsive Apple Home page.
+> This is a collaborative project that explains the essence of design using grey scale: a part of microverse HTML/CSS assignement . initiated and implemented by  Jose' and Daniel.
 
 ![screenshot](./images/screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- HTML
-- CSS
-- Flexbox
-- Grid
+- html & css,
+- Visual Studio Code, Git and Github.
 
 ## Live Demo
-
-[Live Demo Link](https://pastorp3.github.io/)
+[Live Demo Link](https://rashidmvk.github.io/Rashid-Daniel-The-NewYork-times/)
 
 ## Authors
 
-👤 **José Pedraza**
+👤 **Author1**
 
 - Github: [@pastorp3](https://github.com/pastorp3)
-- Twitter: [@jose_pastorp3](https://twitter.com/jose_pastorp3)
+- Twitter: [@jose_pastor](https://twitter.com/jose_pastorp3 )
 - Linkedin: [linkedin](https://www.linkedin.com/in/jos%C3%A9-pedraza-acevedo-ab700a1a9/)
 
-👤 **Bbosa Muhamood**
+👤 **Author2**
 
-- Github: [@bmuhamood](https://github.com/bmuhamood)
-- Twitter: [@croixtechfirm](https://twitter.com/croixtechfirm)
-- Linkedin: [linkedin](https://www.linkedin.com/in/bbosa-muhamood-06845576/)
+- Github: [@digitekh2i](https://https://github.com/digitekh2i)
+- Twitter: [@ObokoDaniel](https://twitter.com/ObokoDaniel)
+- Linkedin: [linkedin](http://linkedin.com/in/daniel-dikachi-1luvtek101)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/bmuhamood/Apple-website-webpage-Clone/issues).
+Feel free to check the [issues page](issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
