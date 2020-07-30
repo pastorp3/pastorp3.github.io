@@ -1,9 +1,11 @@
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Design Tear Down
 
-> This is a collaborative project that explains the essence of design using grey scale: a part of microverse HTML/CSS assignement . initiated and implemented by  Jose' and Daniel.
+# Building-with-Responsive-Design
 
-![screenshot](./images/screenshot.png)
+> This is a collaborative project that explains the Responsive Design : a part of microverse HTML/CSS assignement . initiated and implemented by  Jose' and Daniel.
+
+![screenshot](./images/screenshoot.png)
 
 
 ## Built With
