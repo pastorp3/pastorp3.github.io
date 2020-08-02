@@ -254,7 +254,7 @@ nav {
   color: rgb(255, 86, 34);
   font-size: 14px;
   height: 31px;
-  margin-top: 30px;
+  margin-top: 0;
   margin-right: 23px;
   margin-bottom: 0;
 }
@@ -310,8 +310,9 @@ nav {
 }
 
 .flex {
-  display: block;
+  display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .f2-grid {
@@ -320,7 +321,6 @@ nav {
 }
 
 .f2 {
-  width: 294px;
   height: 288px;
   border: 1px solid transparent;
 }
@@ -340,6 +340,7 @@ nav {
   background-color: rgb(255, 68, 34);
   color: white;
   height: 39px;
+  width: 100%;
   font-size: 18px !important;
   white-space: nowrap;
   overflow: hidden;
@@ -361,7 +362,7 @@ nav {
 
 .f2-seccontainer {
   background-color: rgba(255, 68, 34, 0.08);
-  width: calc(100vw - 25px);
+  width: calc(100vw - 30px);
   height: 45px;
   font-size: 14px;
   line-height: 21px;
@@ -514,7 +515,7 @@ nav {
 .linear-gradient-2 {
   background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   background-size: 100% 100%;
-  height: 270px;
+  height: 210px;
 }
 
 .linear-gradient-3 {
@@ -640,8 +641,8 @@ nav {
 }
 
 .f4-img-1 {
-  width: 30%;
-  height: 67px;
+  width: 20%;
+  height: 45px;
   background-image: url("https://cdnp2.stackassets.com/6179061a340aec6fb745648722689d80eb1f1165/store/f861de62ba66a53247f38806f00d41550a956e426fc22b7963aafc23c1b3/sale_28210_primary_image.jpg");
   background-size: cover;
   margin-bottom: 10px;
@@ -649,8 +650,8 @@ nav {
 }
 
 .f4-img-2 {
-  width: 30%;
-  height: 67px;
+  width: 20%;
+  height: 45px;
   background-image: url("https://cdnp3.stackassets.com/ff35439fd6a5c9e2c5cc4514a7f1923c9ef7ea6f/store/1532b43da15553514d7d8c0215fdd0d1033614864b7071dab71a69d5335b/sale_19163_primary_image.jpg");
   background-size: cover;
   margin-bottom: 10px;
@@ -658,8 +659,8 @@ nav {
 }
 
 .f4-img-3 {
-  width: 30%;
-  height: 67px;
+  width: 20%;
+  height: 45px;
   background-image: url("https://cdnp2.stackassets.com/de4a193171a0bccdb92ddba0b719f1b93831e489/store/c78e4c9dcc1128ece7d2d2d7e92fc7fb9aff2820cd9c67fce6590914d7f3/sale_31217_primary_image.jpg");
   background-size: cover;
   margin-bottom: 10px;
@@ -667,8 +668,8 @@ nav {
 }
 
 .f4-img-4 {
-  width: 30%;
-  height: 67px;
+  width: 20%;
+  height: 45px;
   background-image: url("https://cdnp2.stackassets.com/fa79eee393d45817ba89d96f63c6f4432d5ccde9/store/04564b3f7fc7790d261b5fede32761ae7260732d9c6f158790db40c5bd8f/sale_31344_primary_image.jpg");
   background-size: cover;
   margin-bottom: 10px;
@@ -676,8 +677,8 @@ nav {
 }
 
 .f4-img-5 {
-  width: 30%;
-  height: 67px;
+  width: 20%;
+  height: 45px;
   background-image: url("https://cdnp0.stackassets.com/a1b45c57042cdef1f1b897016cfde23589de621d/store/55c827cf0a6ce820b885872694c7271be3c3e8f89e91e59b2637a866fffa/sale_25748_primary_image.jpg");
   background-size: cover;
   margin-bottom: 10px;
@@ -685,8 +686,8 @@ nav {
 }
 
 .f4-img-6 {
-  width: 30%;
-  height: 67px;
+  width: 20%;
+  height: 45px;
   background-image: url("https://cdnp3.stackassets.com/0b442829152188ef5c1de0aff7d72820282f26e0/store/73b9b30bec03d67a0c89bae3aaaddafc5a59895b1edd5194d61ab010f926/sale_20564_primary_image.jpg");
   background-size: cover;
   margin-bottom: 10px;
@@ -694,8 +695,8 @@ nav {
 }
 
 .f4-img-7 {
-  width: 30%;
-  height: 67px;
+  width: 20%;
+  height: 45px;
   background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
   background-size: cover;
   margin-bottom: 10px;
@@ -703,8 +704,8 @@ nav {
 }
 
 .f4-img-8 {
-  width: 30%;
-  height: 67px;
+  width: 20%;
+  height: 45px;
   background-image: url("https://cdnp0.stackassets.com/458215425c39b26b83c2fee071bfc10868bbc676/store/c131e2e170c4476d94c6d2532c04a50c102b02844b726e21c1c4b2aeb4b7/sale_24981_primary_image.jpg");
   background-size: cover;
   margin-bottom: 10px;
@@ -743,14 +744,15 @@ nav {
   display: flex;
   flex-direction: column;
   width: 70%;
+  line-height: 14px;
 }
 
 .f4-text {
-  line-height: 20px;
+  line-height: 14px;
   font-weight: 700;
   text-decoration: none;
   color: black;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .f4-price1 {
@@ -1196,6 +1198,10 @@ section {
     height: 270px;
   }
 
+  .linear-gradient-2 {
+    height: 260px;
+  }
+
   .section1-2-heading {
     font-size: 25px;
     line-height: 32px;
@@ -1372,14 +1378,14 @@ section {
 
   .f2-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     margin-top: 20px;
-    margin-bottom: -300px;
+    margin-bottom: 0;
   }
 
   .f2-media-hidden {
-    display: none;
+    display: block;
   }
 
   .f2 {
@@ -1520,6 +1526,7 @@ section {
   }
 
   .f4-triangle {
+    display: block;
     width: 80px;
     height: 80px;
     position: relative;
@@ -1599,6 +1606,10 @@ section {
 
   .linear-gradient-3 {
     height: 270px;
+  }
+
+  .linear-gradient-2 {
+    height: 260px;
   }
 
   .section1-2-heading {
