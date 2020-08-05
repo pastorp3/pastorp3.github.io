@@ -1,11 +1,11 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Building-with-Responsive-Design
+# Newsweek-clone
 
-> This is a collaborative project that explains the Responsive Design : a part of microverse HTML/CSS assignement . initiated and implemented by  Jose' and Daniel.
+> This is a collaborative project that use Boostrap for a responsive design and css style : a part of microverse HTML/CSS assignement . initiated and implemented by  Jose and Sanad
 
-![screenshot](./images/screenshoot.png)
+![screenshot](./graphics/screenshot.png)
 
 
 ## Built With
@@ -14,7 +14,7 @@
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://pastorp3.github.io/)
+[Live Demo Link](https://raw.githack.com/sanadwj/Newsweek-clone/feature-branch/index.html)
 
 ## Authors
 
@@ -26,15 +26,16 @@
 
 👤 **Author2**
 
-- Github: [@digitekh2i](https://https://github.com/digitekh2i)
-- Twitter: [@ObokoDaniel](https://twitter.com/ObokoDaniel)
-- Linkedin: [linkedin](http://linkedin.com/in/daniel-dikachi-1luvtek101)
+- Github: [@sanadwj](https://github.com/sanadwj)
+- Twitter: [@sandooog](https://twitter.com/sandooog)
+- Linkedin: [Sanad-Abujbara](https://linkedin.com/in/sanad-abujbara)
+
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/sanadwj/Newsweek-clone/issues).
 
 ## Show your support
 
