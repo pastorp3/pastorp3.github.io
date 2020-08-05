@@ -93,11 +93,11 @@ a {
 }
 
 .copy-m {
-  margin-top: 32px;
+  margin-top: 20px;
 }
 
 .icon-m {
-  margin-top: 30px;
+  margin-top: 20px;
   width: 20px;
   height: 20px;
 }
@@ -135,7 +135,6 @@ a {
 
 .nav-info {
   margin-left: 10px;
-  margin-top: 50px !important;
   width: 150px;
 }
 
@@ -244,6 +243,18 @@ a {
   right: -115px;
 }
 
+@media (max-width: 1024px) {
+  .fit-text {
+    width: 250px !important;
+  }
+
+  .text-media {
+    font-size: 11px !important;
+    line-height: 12px !important;
+    padding: 0 0 0 0 !important;
+  }
+}
+
 @media screen and (max-width: 991px) {
   body {
     margin-right: 0 !important;
@@ -268,6 +279,10 @@ a {
 @media screen and (max-width: 768px) {
   .nav-sm {
     display: flex;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    overflow: hidden;
   }
 
   .nav-md {
@@ -291,8 +306,9 @@ a {
   }
 
   .media-img {
-    width: 60px;
-    height: 55px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .fit-text {
@@ -310,6 +326,18 @@ a {
 
   .vs {
     left: 350px !important;
+  }
+
+  .copy-m {
+    margin-top: 20px;
+  }
+
+  .icon-m {
+    margin-top: 20px;
+  }
+
+  .nav-mobli {
+    position: fixed;
   }
 }
 
@@ -340,18 +368,19 @@ a {
   }
 
   .align-news {
-    margin-right: -64px !important;
+    padding-left: 70px !important;
   }
 
   .text-media {
-    font-size: 12px !important;
-    line-height: 12px !important;
+    font-size: 19px !important;
+    line-height: 21px !important;
     padding: 0 0 0 0 !important;
   }
 
   .media-img {
-    width: 80px;
-    height: 55px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .margin-mobile {
@@ -403,5 +432,49 @@ a {
 
   .icon-top-2 {
     margin-left: -9px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .media-large {
+    margin-left: 17px;
+    margin-right: 16px;
+  }
+
+  .media-features {
+    margin-left: 17px;
+  }
+
+  .text-media {
+    font-size: 16px !important;
+  }
+
+  .align-news {
+    padding-left: 50px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .media-large {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .media-features {
+    margin-left: 0;
+  }
+
+  .text-media {
+    font-size: 12px !important;
+  }
+
+  .align-news {
+    padding-left: 10px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .suscribe-2 {
+    right: 10px !important;
   }
 }
