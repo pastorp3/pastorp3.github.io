@@ -93,11 +93,11 @@ a {
 }
 
 .copy-m {
-  margin-top: 65px;
+  margin-top: 32px;
 }
 
 .icon-m {
-  margin-top: 63px;
+  margin-top: 30px;
   width: 20px;
   height: 20px;
 }
@@ -162,9 +162,8 @@ a {
 }
 
 .footer-icon {
-  background-image: url("https://findvectorlogo.com/wp-content/uploads/2019/07/newsweek-vector-logo.png");
-  background-size: cover;
-  width: 235px;
+  width: 236px;
+  height: 60px;
 }
 
 .suscribe-1 {
@@ -218,6 +217,12 @@ a {
   line-height: 0;
 }
 
+.card-db-txt-special {
+  margin-left: -15px;
+  font-size: 14px;
+  line-height: 0;
+}
+
 .more-img {
   width: 95px;
   height: 95px;
@@ -225,6 +230,18 @@ a {
 
 .more-text {
   font-size: 15px !important;
+}
+
+.vs {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  right: -115px;
 }
 
 @media screen and (max-width: 991px) {
@@ -283,7 +300,16 @@ a {
   }
 
   .card-db-txt {
-    margin-left: -100px !important;
+    margin-left: -95px !important;
+  }
+
+  .card-db-txt-special {
+    margin-left: 55px !important;
+    margin-top: 10px !important;
+  }
+
+  .vs {
+    left: 350px !important;
   }
 }
 
@@ -294,13 +320,7 @@ a {
   }
 
   .footer {
-    display: block;
-  }
-
-  .copy-m {
-    position: relative;
-    top: 35px;
-    left: -190px;
+    display: block !important;
   }
 
   .icon-m {
@@ -356,5 +376,32 @@ a {
 
   .card-db-txt {
     margin-left: -15px !important;
+  }
+
+  .card-db-txt-special {
+    margin-left: -15px !important;
+    margin-top: 0 !important;
+  }
+
+  .vs {
+    left: 100px !important;
+  }
+
+  .nav-1 {
+    width: 100%;
+    padding: 0 0 0 0 !important;
+  }
+
+  .logo-img {
+    margin-left: -16px;
+  }
+
+  .icon-top {
+    margin-left: -9px !important;
+    margin-right: -9px !important;
+  }
+
+  .icon-top-2 {
+    margin-left: -9px !important;
   }
 }
