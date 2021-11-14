@@ -1,0 +1,31 @@
+
+.alignButtonLogIn {
+    padding-top: 15%;
+}
+
+.inputCustome {
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: #867971;
+}
+
+.form {
+    padding: 3%;
+}
+
+.titleLogIn {
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+
+.Submit {
+    color: #867971;
+    border: 0;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+    padding-left: 3%;
+}

@@ -1,0 +1,60 @@
+{
+  "name": "alfonso_marina_fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "json-loader": "^0.5.7",
+    "rc-pagination": "^3.1.10",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.1",
+    "react-countries-input": "0.0.2",
+    "react-country-dropdown": "^1.0.4",
+    "react-country-region-selector": "^3.4.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-paginate": "^8.0.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.0",
+    "web-vitals": "^1.1.2"
+  },
+  "engines": {
+    "node": "14.X"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

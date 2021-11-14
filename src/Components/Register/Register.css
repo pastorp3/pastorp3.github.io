@@ -1,0 +1,35 @@
+.inputCustome {
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: #867971;
+}
+
+.form {
+    padding: 3%;
+}
+
+.title {
+    padding-left: 3%;
+}
+
+.Submit {
+    color: #867971;
+    border: 0;
+    padding: 10px;
+}
+
+.alignButton {
+    margin-top: 8%;
+}
+
+.error {
+    color: red;
+    padding-left: 3%;
+}
+
+.selectCountry {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
